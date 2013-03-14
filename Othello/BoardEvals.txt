@@ -1,0 +1,68 @@
+  0 1 2 3 4 5 6 7
+ +-+-+-+-+-+-+-+-+
+0| | | | | | | | |
+ +-+-+-+-+-+-+-+-+
+1| | | | | | | | |
+ +-+-+-+-+-+-+-+-+
+2|B|B|B|B|B|B|B|B|
+ +-+-+-+-+-+-+-+-+
+3| | | |W|W| | | |
+ +-+-+-+-+-+-+-+-+
+4| | |W|W|W|W| | |
+ +-+-+-+-+-+-+-+-+
+5| | | |W|W| | | |
+ +-+-+-+-+-+-+-+-+
+6| | | | | | | | |
+ +-+-+-+-+-+-+-+-+
+7| | | | | | | | |
+ +-+-+-+-+-+-+-+-+
+Black advantage
+Eval function (black): 16
+Eval function (white): 8
+Black controls an entire row here, making it difficult for White to make much progress along that row. Even though both sides have the same number of pieces, Black's position is much more solid, although not impregnable. Thus, Black's advantage is not unrecoverable, but it is distinct, and validates the evaluation function.
+
+  0 1 2 3 4 5 6 7
+ +-+-+-+-+-+-+-+-+
+0|W|W| | | | | | |
+ +-+-+-+-+-+-+-+-+
+1|W|W| |B| | | | |
+ +-+-+-+-+-+-+-+-+
+2| |W|W|B| | | | |
+ +-+-+-+-+-+-+-+-+
+3| | |B|B|B| | | |
+ +-+-+-+-+-+-+-+-+
+4| | |B|B|B| | | |
+ +-+-+-+-+-+-+-+-+
+5| | | |B|B|B| | |
+ +-+-+-+-+-+-+-+-+
+6| | | | | | |B| |
+ +-+-+-+-+-+-+-+-+
+7| | | | | | | | |
+ +-+-+-+-+-+-+-+-+
+White advantage
+Eval function (black): 1
+Eval function (white): 51
+White controls the corner, and the pieces around the corner, putting this player in a devastatingly powerful position. While Black has many more pieces on the board, most of them are liable to be taken, often in droves, by White. For this reason, it makes sense that White has a huge positional advantage based on the evaluation function. This example proves the importance of corner pieces, and the relatively small affect of having many pieces.
+
+  0 1 2 3 4 5 6 7
+ +-+-+-+-+-+-+-+-+
+0| | | | | | | | |
+ +-+-+-+-+-+-+-+-+
+1| | | | | | | | |
+ +-+-+-+-+-+-+-+-+
+2| |W|W|W|B| | | |
+ +-+-+-+-+-+-+-+-+
+3| | |B|B|W|B| | |
+ +-+-+-+-+-+-+-+-+
+4| | | |W|B| | | |
+ +-+-+-+-+-+-+-+-+
+5| | | | | | | | |
+ +-+-+-+-+-+-+-+-+
+6| | | | | | | | |
+ +-+-+-+-+-+-+-+-+
+7| | | | | | | | |
+ +-+-+-+-+-+-+-+-+
+No advantage
+Eval function (black): 5
+Eval function (white): 5
+Neither color has a definitive advantage here, since all the pieces are on relatively neutral territory. Black could decrease its value significantly if it played on the (1, 1) square, but likely will not do this. White is nearing an edge, which could be useful, but Black could easily take back any gains made here. Thus, the position is neutral, and the evaluation makes sense.

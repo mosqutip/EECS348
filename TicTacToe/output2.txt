@@ -1,0 +1,60 @@
+Please enter which player you would like to be, either 1 or 2: 1
+
+INITIAL GAME BOARD
+1|2|3
+4|5|6
+7|8|9
+
+Your move. Please select an empty square on the board
+5
+1|2|3
+4|X|6
+7|8|9
+
+CPU Move
+O|2|3
+4|X|6
+7|8|9
+
+Your move. Please select an empty square on the board
+3
+O|2|X
+4|X|6
+7|8|9
+
+CPU Move
+O|2|X
+4|X|6
+O|8|9
+
+Your move. Please select an empty square on the board
+4
+O|2|X
+X|X|6
+O|8|9
+
+CPU Move
+O|2|X
+X|X|O
+O|8|9
+
+Your move. Please select an empty square on the board
+8
+O|2|X
+X|X|O
+O|X|9
+
+CPU Move
+O|O|X
+X|X|O
+O|X|9
+
+Your move. Please select an empty square on the board
+9
+
+
+Game over.
+O|O|X
+X|X|O
+O|X|X
+Cat game
